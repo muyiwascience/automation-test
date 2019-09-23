@@ -72,4 +72,3 @@ describe('home page', () => {
         assert.strictEqual(message, 'Start your Remortgage application');
     });
 });
-
