@@ -13,9 +13,5 @@ class MortgageRateComponent {
         return browser
             .element('a=Mortgage rates');
     }
-    //
-    // mortgageRateLinkIsVisible() {
-    //     return browser.isVisible('#MortgagesNavItem > a');
-    // }
 }
 module.exports = new MortgageRateComponent();
