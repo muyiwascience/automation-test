@@ -22,13 +22,20 @@ Implement the Feature file "src/features/find-mortgage-rate.feature" according t
 - Click "More info and apply" and "Apply" button for the "5 yr Fixed" product
 - Verify the next page's heading is "Start your remortgage application"
 
-## Quick start
-run `npm start`
-
 ## Notes
 The project is setup with babel to support ES6 / ES2016.
 Feel free to update and change the setup & configs as you require.
 
+## My changes
+I added babel.configfile 
+
+ 'https://webdriver.io/docs/babel.html'
+
+
 
 # run test
-'./node_modules/.bin/wdio'
+run `npm test`
+
+
+## Notes
+Cucumber not implemented 
