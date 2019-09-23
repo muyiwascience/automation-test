@@ -53,11 +53,11 @@ exports.config = {
 
     jasmineNodeOpts: {
 
-        defaultTimeoutInterval: 10000,
+        defaultTimeoutInterval: 30000,
 
-        expectationResultHandler(passed, assertion) {
+        // expectationResultHandler(passed, assertion) {
 
-        },
+        // },
     },
 
 };
