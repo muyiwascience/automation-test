@@ -37,7 +37,7 @@ exports.config = {
 
     baseUrl,
 
-    waitforTimeout: 130000,
+    waitforTimeout: 30000,
 
     connectionRetryTimeout: 912000,
 
@@ -46,13 +46,14 @@ exports.config = {
     services: ['selenium-standalone'],
 
     framework: 'jasmine',
+
     before() {
         require('@babel/register');
     },
 
     jasmineNodeOpts: {
 
-        defaultTimeoutInterval: 10000,
+        defaultTimeoutInterval: 30000,
 
         expectationResultHandler(passed, assertion) {
 
