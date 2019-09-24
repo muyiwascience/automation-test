@@ -1,4 +1,4 @@
-Webdriver.io + CucumberJS automation test
+Webdriver.io automation test + Jasmine
 ====================
 
 Implement the Feature file "src/features/find-mortgage-rate.feature" according to the following:
@@ -37,3 +37,7 @@ I added babel.configfile
 
 # run test
 run `npm test`
+
+#Wip
+CucumberJS will be added to it later. 
+The code needs refactoring.
